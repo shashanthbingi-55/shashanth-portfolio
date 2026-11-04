@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Shashanth's personal portfolio website showcasing web development skills and projects.">
+  <title>Shashanth | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">S<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Open to freelance opportunities</p>
+          <h1>Hello, I'm <span>Shashanth.</span></h1>
+          <h2>Aspiring Web Developer</h2>
+          <p class="hero-text">I build clean, responsive and user-friendly websites using HTML, CSS and JavaScript. I
+            enjoy learning new technologies and turning ideas into simple web experiences.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View my work</a>
+            <a class="button secondary" href="#contact">Contact me</a>
+          </div>
+          <div class="quick-facts">
+            <div><strong>HTML & CSS</strong><span>Page structure and styling</span></div>
+            <div><strong>JavaScript</strong><span>Interactive experiences</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="avatar">S<span>.</span></div>
+          <p class="card-kicker">PERSONAL PORTFOLIO</p>
+          <h3>Web Development</h3>
+          <p>Responsive design · Clean layout · Continuous learning</p>
+          <div class="code-window">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <code><span>const</span> developer = {<br>
+              &nbsp; name: <b>"Shashanth"</b>,<br>
+              &nbsp; focus: <b>"Web Development"</b>,<br>
+              &nbsp; learning: <b>true</b><br>
+              };</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2 class="section-title">Building my skills, <span>one project at a time.</span></h2>
+        <p class="section-text">I am an aspiring web developer with knowledge of HTML5, CSS3, JavaScript, Python, SQL
+          and Snowflake. I am focused on strengthening my frontend development skills by building practical projects. I
+          value clear communication, attention to detail and continuous improvement.</p>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I KNOW</p>
+        <h2 class="section-title">My <span>technical skills</span></h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">5</div>
+            <h3>HTML5</h3>
+            <p>Structuring accessible web pages.</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">✳</div>
+            <h3>CSS3</h3>
+            <p>Styling layouts and responsive designs.</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Adding interactions and page behavior.</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">Py</div>
+            <h3>Python</h3>
+            <p>Programming fundamentals and practice.</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">SQL</div>
+            <h3>SQL</h3>
+            <p>Working with relational data and queries.</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">SF</div>
+            <h3>Snowflake</h3>
+            <p>Learning cloud data platform concepts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2 class="section-title">My <span>project</span></h2>
+        <article class="project-card">
+          <div class="project-visual">
+            <div class="browser-bar"><i></i><i></i><i></i><span>my-portfolio</span></div>
+            <div class="mock-content">
+              <div class="mock-line wide"></div>
+              <div class="mock-line"></div>
+              <div class="mock-button"></div>
+              <div class="mock-panels"><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-type">PERSONAL PROJECT · FRONTEND</p>
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive personal website created to introduce my skills, share my learning journey and present my
+              web development work. Built with HTML, CSS and JavaScript.</p>
+            <div class="tag-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive
+                Design</span></div>
+            <p class="project-note">This is my personal practice project. More projects will be added as I build them.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2 class="section-title">Have a project in mind?</h2>
+          <p class="section-text">I am interested in suitable beginner-friendly web development opportunities and
+            collaborations.</p>
+        </div>
+        <a class="button primary" href="mailto:shashanthbingi35891@gmail.com">Email me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">S<span>.</span></a>
+      <p>© <span id="year"></span> Shashanth. Built with HTML, CSS & JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+
+</html>
